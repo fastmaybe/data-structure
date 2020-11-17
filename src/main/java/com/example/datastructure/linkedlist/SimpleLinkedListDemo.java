@@ -3,6 +3,12 @@ package com.example.datastructure.linkedlist;
 /**
  * @Author: liulang
  * @Date: 2020/11/16 11:21
+ *
+ *
+ * 单项链表   有头节点  无头节点
+ *          头插法  每次放在最前面  比如有头结点  newNode.next = head.next
+ *                                              head.next = newNode;
+ *          尾插法  每次放在尾部  链表顺序和插入顺序一直。
  */
 public class SimpleLinkedListDemo {
 
